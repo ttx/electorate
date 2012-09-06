@@ -1,8 +1,1 @@
-python electorate.py ACTION sample_members.csv sample_committers*.csv
-
-with ACTION:
-* csv: Voters in a CSV file
-* names: Only names of voters (suitable for publishing voters list)
-* emails: Only emails of voters (suitable for CIVS input)
-* missing: Committers that don't appear to be Foundation members.
-           Should be doublechecked for non-matching emails
+python electorate.py sample_members.csv sample_committers*.csv
